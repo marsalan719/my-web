@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+/* ################   header   ############### */
+.head{
+    /* border: 1px solid red; */
+    padding: 3vw 2vw 4vw;
+    width: 65vw;
+    height: 5vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.169);
+}
+
+.header{
+    /* border: 2px solid green; */
+    height: 49vw;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)) , url(../img/pexels-eberhard-grossgasteiger-534164.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo a{
+    display: inline-block;
+    position: relative;
+    bottom: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    float: left;
+    color: aliceblue;
+}
+
+.nav .list a{
+    display: inline-block;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+    margin: 0 2vw;
+    float: right;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+}
+.float-fix{
+    clear: both;
+}
+
+.list a:link{
+    color: aliceblue;
+}
+
+.list a:visited{
+    color: aliceblue;
+}
+
+.list a:hover{
+    border-bottom: .2vw solid aliceblue;
+    transform: scale(1.1);
+}
+
+.list a:active{
+    color: rgb(18, 171, 51);
+    border-bottom: .2rem solid rgb(18, 171, 51);
+}
+
+.logo a:hover{
+    color: #ccc;
+    border-bottom: .2vw solid #ccc;
+    transform: scale(1.1);
+}
+
+.logo a:active{
+    color: rgb(18, 171, 51);
+    border-bottom: .2vw solid rgb(18, 171, 51);
+}
+
+
+
+/* ############## content ############## */
+
+.content h1{
+    font-size: 3vw;
+    color: aliceblue;
+    /* border: .5vw solid red; */
+    /* display: inline-block; */
+    width: 40vw;
+    font-weight: 500;
+    letter-spacing: .5em;
+    text-align: center;
+    margin: auto;
+
+}
+
+.content ul li{
+    color: aliceblue;
+    font-size: 1vw;
+    width: 65vw;
+    word-spacing: .4em;
+    line-height: 2em;
+    margin: auto;
+    /* border: .2vw solid red; */
+    padding: 1vw .5vw;
+}
+
+
+/* ################# body ############### */
+
+
+.data{
+    border: .5vw solid #ddd;
+    height: 50vw;
+    background: #ddd;
+    text-align: center;
+}
+
+.data .box1{
+    /* border: .5vw solid green; */
+    width:  65vw;
+    height: 18vw;
+    margin: 2vw 15.8vw;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 1vw 1vw 0 rgba(0, 0, 0, 0.2), 0 1vw 2vw 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+}
+
+.data .box1:hover{
+    transform: scale(1.1);
+}
+
+.data .box2{
+    /* border: .5vw solid green; */
+    width:  65vw;
+    height: 18vw;
+    margin: 2vw 15.8vw;
+    background: #fff;
+    text-align: left;
+    box-shadow: 0 1vw 1vw 0 rgba(0, 0, 0, 0.2), 0 1vw 2vw 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+}
+
+.data .box2:hover{
+    transform: scale(1.1);
+}
+
+.data .box1 .img img{
+    /* border: .5vw red solid ; */
+    width:32.3vw ;
+    float: left;
+    display: inline-block;
+    height:17.9vw ;
+    padding-top: .1vw;
+}
+
+.data .box1 .info .info-head{
+    float: right;
+    display: inline-block;
+    /* border: .5vw red solid ; */
+    color:  rgb(18, 171, 51);
+    text-transform: uppercase;
+    width:31.9vw ;
+    height:17.7vw ;
+    margin-top: 1em;
+    font-size: 1.5vw;
+    font-weight: 450;
+    font-family: "Montserrat", sans-serif;
+}
+
+.data .box1 .info .info-head .info-data{
+    color: black;
+    font-size: 1.2vw;
+    word-spacing: .5em;
+    line-height: 2em;
+    text-transform: lowercase;
+    padding: .8vw;
+    margin-top: .5vw;
+}
+
+
+.data .box2 .img img{
+    /* border: .5vw red solid ; */
+    width:32.3vw ;
+    float: right;
+    display: inline-block;
+    height:17.9vw ;
+    padding-top: .1vw;
+}
+
+.data .box2 .info .info-head{
+    float: left;
+    display: inline-block;
+    /* border: .5vw red solid ; */
+    color:  rgb(18, 171, 51);
+    text-transform: uppercase;
+    width:30vw ;
+    height:17.7vw ;
+    margin-top: 1em;
+    font-size: 1.5vw;
+    font-weight: 450;
+    font-family: "Montserrat", sans-serif;
+    padding-left: .8vw;
+}
+
+.data .box2 .info .info-head .info-data{
+    color: black;
+    text-transform: lowercase;
+    font-size: 1.2vw;
+    word-spacing: .5em;
+    line-height: 2em;
+    padding: .8vw;
+    margin-top: .5vw;
+}
+
+.data .more{
+    font-size: 2vw;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(18, 171, 51) ;
+    border: .1em solid rgb(18, 171, 51);
+    background: #fff;
+    border-radius: 3vw;
+    padding: .3vw 2.5vw .8vw 2.5vw;
+    text-align: center;
+
+}
+
+
+/* ############ footer ########## */
+
+
+
+.footer{
+    /* border: 2vw solid black; */
+    height: 12vw ;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.5)) , url(../img/pexels-sebastian-sørensen-1276518.jpg);
+    background-size: 100vw;
+}
+
+.footer img{
+    height: 1.5vw;
+    display: inline-block;
+}
+.footer h2{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    margin-left: 1.5vw;
+    padding-bottom: 2vw;
+}
+
+.footer a{
+    margin-bottom: 2vw;
+}
+
+.footer h1{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 5vw;
+    float: right;
+    margin-top: 3.5vw;
+    margin-right: 30vw;
+}
+.footer ul{
+    display: inline-block;
+    margin-left: 8vw;
+    margin-top: 2vw;
+}
+
+/* ################# ABOUT ############# */
+
+.about{
+
+    /* border: .3vw solid red; */
+    height: 99vh;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url(../img/new.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+
+}
+
+.abd{
+    margin-bottom: .5vw;
+    margin-left: 17vw;
+    text-align: center;
+    width: 65vw;
+    /* border: 2px solid white; */
+    height: 53vh;
+    word-spacing: .8em;
+    line-height: 6em;
+}
+.about h1{
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about p{
+    font-family: "Montserrat", sans-serif;
+    font-size: .9vw;
+}
+
+.about .fot{
+    /* border: 2px solid red; */
+    height: 12vw;
+    padding-bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.58);
+
+}
+
+.fot img{
+    height: 1.5vw;
+    display: inline-block;
+}
+.fot h2{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: .5vw;
+    margin-left: 1.5vw;
+    padding-bottom: 1vw;
+}
+
+.fot a{
+    margin-bottom: 1vw;
+}
+
+.fot h1{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 3vw;
+    float: right;
+    margin-top: 3.5vw;
+    margin-right: 39vw;
+}
+.fot ul{
+    display: inline-block;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    float: left;
+}
+
+/* ################ login ############### */
+
+.login{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)) , url(../img/pexels-eberhard-grossgasteiger-534164.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* padding: 6.3vw;
+     */
+}
+
+.login .login-cont{
+    /* border: .2vw solid red; */
+    display: inline-block;
+    background: #ffffff27;
+    height: 130em;
+    width: 150em;
+    margin-top: 20vh;
+
+}
+
+.login-cont h1{
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: .05em solid rgb(18, 171, 51)  ;
+    margin-bottom: .2em;
+    margin-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-cont input{
+    font-family:  "Anta", sans-serif;
+    border-radius: 3vh;
+    font-size: 1.2rem;
+    width: 27em;
+    text-align: center;
+    margin: 1em auto;
+    padding: .5em ;
+
+}
+
+.forgot {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 5em;
+    font-weight: 500;
+    font-family:  "Anta", sans-serif ;
+}
+
+.login .login-cont .login-button{
+    font-size: 7em;
+    font-family:  "Anta", sans-serif ;
+    color: rgb(18, 171, 51);
+    padding: .2em .5em;
+    background: #fff;
+    border-radius: 3em;
+    display: inline-block;
+    /* margin-top: .8em; */
+    width: 4em;
+}
+
+.login-button:hover{
+    cursor: pointer;
+}
+
+.login .home a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 5em;
+    float: right;
+    margin-top: 2em;
+    margin-right: 3em;
+}
